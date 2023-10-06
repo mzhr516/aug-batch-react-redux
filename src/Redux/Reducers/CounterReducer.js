@@ -1,6 +1,6 @@
 
 
-export const CounterReducer = (state = 0, action) => {
+export const CounterReducer = (state = 100, action) => {
   if (action.type === "INCREMENT") {
     return state + 1;
   }
